@@ -9,10 +9,10 @@ import com.adsmanager.adswrapper.AdsManagerOpenAdWrapper
 import com.adsmanager.adswrapper.AdsManagerWrapper
 import com.adsmanager.core.CallbackAds
 import com.adsmanager.core.CallbackOpenAd
-import com.adsmanager.core.IRewards
-import com.adsmanager.core.RewardsItem
-import com.adsmanager.core.iadsmanager.SizeBanner
-import com.adsmanager.core.iadsmanager.SizeNative
+import com.adsmanager.core.rewards.IRewards
+import com.adsmanager.core.rewards.RewardsItem
+import com.adsmanager.core.SizeBanner
+import com.adsmanager.core.SizeNative
 import org.koin.android.ext.android.inject
 
 class MainActivity : AppCompatActivity() {
